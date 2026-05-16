@@ -1,0 +1,28 @@
+// RESCITE — monochrome theme variables.
+//
+// Strategy: keep Material's component metrics, replace all color tokens with CSS
+// custom properties defined in index.html. That lets one compiled stylesheet
+// handle both light and dark mode at runtime, driven by prefers-color-scheme
+// or a manual data-theme attribute on <html>.
+//
+// The fallbacks here are used only by the SCSS compiler for static color math
+// (e.g. lighten/darken). The runtime value is always taken from the CSS var.
+
+$base-color:            unquote("var(--rs-accent, #111111)");
+$color:                 unquote("var(--rs-text, #111111)");
+$background-color:      unquote("var(--rs-bg, #ffffff)");
+$neutral-color:          unquote("var(--rs-surface, #fafafa)");
+
+$font-family:           unquote("-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif");
+$font-weight-normal:    400;
+$font-weight-bold:      600;
+
+// Component-level surfaces — point at the same vars so panels, sheets, toolbars
+// all follow theme.
+$panel-body-background-color:     $background-color;
+$panel-header-background-color:   $neutral-color;
+$panel-header-color:              $color;
+$toolbar-background-color:        $background-color;
+$toolbar-border-color:            unquote("var(--rs-border, #e6e6e6)");
+$button-default-background-color: $neutral-color;
+$button-default-color:            $color;

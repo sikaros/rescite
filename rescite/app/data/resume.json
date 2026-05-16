@@ -1,0 +1,85 @@
+{
+    "hero": {
+        "name": "Oscar Ayala",
+        "title": "Software Engineer",
+        "tagline": "Building enterprise web applications with Sencha Ext JS, JavaScript, and a focus on performance.",
+        "location": "Available remotely / hybrid"
+    },
+    "about": [
+        "I design and build data-dense web applications used in regulated, real-world workflows — currently the pharmacy operations space. My day-to-day mixes JavaScript front-end engineering with the integration work that keeps a product trustworthy: REST APIs, configuration, security headers, and the small UX details that make a screen scannable instead of overwhelming.",
+        "I take performance seriously. Sencha apps can be enormous; mine stay quick because I treat every grid, panel, and theme decision as a budget item. I prefer plain solutions that hold up under scrutiny over clever ones that don't.",
+        "Outside of work I'm interested in clean typography, the craft side of software (testing discipline, code review), and learning how to teach what I know."
+    ],
+    "stats": [
+        { "value": "10+", "label": "Years writing software" },
+        { "value": "1",   "label": "Production apps shipped" },
+        { "value": "6",   "label": "Languages & frameworks" },
+        { "value": "0",   "label": "Outages I caused this year" }
+    ],
+    "experience": [
+        {
+            "company": "Systemates",
+            "role": "Software Engineer",
+            "dates": "2023 – Present",
+            "summary": "Frontend on PharmacyPortal — a Sencha Ext JS classic application for pharmacy operations.",
+            "bullets": [
+                "Owned the approval, order release, HL7 log, and HOA modules end-to-end.",
+                "Authored the custom alixarx-classic-theme package layered on theme-crisp.",
+                "Hardened login flow and runtime config loading; reduced startup work."
+            ]
+        },
+        {
+            "company": "Previous Role",
+            "role": "Developer",
+            "dates": "20XX – 2023",
+            "summary": "Replace with prior role.",
+            "bullets": [
+                "Bullet one — what you owned, not what was on the team.",
+                "Bullet two — a measurable outcome where possible.",
+                "Bullet three — a technical detail that signals depth."
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "category": "Languages",
+            "items": ["JavaScript", "TypeScript", "HTML", "CSS / SCSS", "SQL", "Python"]
+        },
+        {
+            "category": "Frameworks & Libraries",
+            "items": ["Sencha Ext JS 7.x", "Node.js", "React (learning)"]
+        },
+        {
+            "category": "Tools",
+            "items": ["Sencha Cmd", "Git", "VS Code", "Postman", "Chrome DevTools"]
+        },
+        {
+            "category": "Practices",
+            "items": ["MVVM/MVC", "REST integration", "Code review", "Theming & SCSS"]
+        }
+    ],
+    "projects": [
+        {
+            "name": "PharmacyPortal",
+            "context": "Systemates · 2023 – Present",
+            "blurb": "Sencha Ext JS classic toolkit application for pharmacy operations — approvals, order release, HL7 error tracking, HOA management, and EMC config tooling. Custom theme, role-based login, runtime config."
+        },
+        {
+            "name": "RESCITE",
+            "context": "Personal · 2026",
+            "blurb": "This site. Single-page resume built with the Ext JS 7.7 modern toolkit, monochrome theme, automatic light/dark, lighthouse-tuned. The medium is part of the message."
+        }
+    ],
+    "goals": "Next 18 months: keep deepening on web performance, contribute to a public open-source project I rely on day-to-day, and grow into a role with more architectural ownership.",
+    "hobbies": [
+        { "icon": "fa-book",         "label": "Reading — currently working through Agile Software Development by Robert C. Martin." },
+        { "icon": "fa-code",         "label": "Side projects in JavaScript and Sencha." },
+        { "icon": "fa-music",        "label": "Music — long playlists for long focus blocks." },
+        { "icon": "fa-mountain",     "label": "Walking and outdoor time to break up screen days." }
+    ],
+    "contact": {
+        "email": "oscar.ayala@systemates.com",
+        "linkedin": "",
+        "github": ""
+    }
+}
