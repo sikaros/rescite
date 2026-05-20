@@ -425,10 +425,10 @@ i.x-fa,
     .rs-hero-photo {
         position: relative;
         z-index: 1;
-        width: 300px;
-        height: 300px;
+        width: 240px;
+        height: 310px;
         border-radius: 50%;
-        object-fit: contain;
+        object-fit: cover;
         display: block;
         border: 1px solid var(--rs-border);
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
@@ -849,7 +849,7 @@ i.x-fa,
         font-size: 14px;
         text-decoration: none;
 
-        .x-fa { color: var(--rs-text-dim); }
+        .x-fa { color: var(--rs-text); }
         &:hover {
             background: var(--rs-surface);
         }
