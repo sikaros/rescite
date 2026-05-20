@@ -16,6 +16,11 @@ Ext.define('RESCITE.view.hero.Hero', {
                     '<p class="rs-hero-tagline">{tagline}</p>',
                     '<div class="rs-hero-meta">{location}</div>',
                 '</div>',
+                '<tpl if="photo">',
+                    '<div class="rs-hero-photo-wrap">',
+                        '<img class="rs-hero-photo" src="{photo}" alt="Headshot of {name}" width="240" height="310">',
+                    '</div>',
+                '</tpl>',
             '</div>'
         ],
         bind: { data: '{hero}' }
