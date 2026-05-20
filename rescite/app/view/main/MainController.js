@@ -20,7 +20,6 @@ Ext.define('RESCITE.view.main.MainController', {
             certifications: r.certifications,
             languages:      r.languages,
             goals:          r.goals,
-            hobbies:        r.hobbies,
             contact:        r.contact,
             loaded:         true
         });
