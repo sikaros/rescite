@@ -14,7 +14,7 @@ Ext.define('RESCITE.view.contact.Contact', {
             xtype: 'component',
             cls: 'rs-contact-links',
             tpl: [
-                '<a class="rs-contact-link" href="mailto:{email}"><i class="x-fa fa-envelope-o" aria-hidden="true"></i><span>{email}</span></a>',
+                '<a class="rs-contact-link" href="mailto:{email}" aria-label="Email"><i class="x-fa fa-envelope" aria-hidden="true"></i><span>Email</span></a>',
                 '<tpl if="linkedin">',
                     '<a class="rs-contact-link" href="{linkedin}" target="_blank" rel="noopener"><i class="x-fa fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>',
                 '</tpl>',
