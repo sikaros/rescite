@@ -5,8 +5,7 @@ Ext.define('RESCITE.data.Resume', {
         name: 'Oscar Ayala',
         title: 'Software Quality Assurance Analyst <span class="rs-sep">·</span> Agentic AI Practitioner',
         tagline: 'Lead QA on a React-based capital construction SaaS. I build the agentic AI workflows that test the software — not just use them.',
-        location: 'Wylie, TX (DFW) <span class="rs-dot">•</span> Open to on-site, hybrid, or remote',
-        photo: 'resources/images/oscar-headshot.jpg'
+        location: 'Wylie, TX (DFW) <span class="rs-dot">•</span> Open to on-site, hybrid, or remote'
     },
 
     about: [
