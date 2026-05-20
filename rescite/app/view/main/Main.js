@@ -16,7 +16,6 @@ Ext.define('RESCITE.view.main.Main', {
         'RESCITE.view.about.About',
         'RESCITE.view.goals.Goals',
         'RESCITE.view.languages.Languages',
-        'RESCITE.view.hobbies.Hobbies',
         'RESCITE.view.contact.Contact'
     ],
 
@@ -86,7 +85,6 @@ Ext.define('RESCITE.view.main.Main', {
                 { xtype: 'rs-about',          sectionId: 'about' },
                 { xtype: 'rs-goals',          sectionId: 'goals' },
                 { xtype: 'rs-languages',      sectionId: 'languages' },
-                { xtype: 'rs-hobbies',        sectionId: 'hobbies' },
                 { xtype: 'rs-contact',        sectionId: 'contact' }
             ]
         }
