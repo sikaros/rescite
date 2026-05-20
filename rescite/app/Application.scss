@@ -850,9 +850,20 @@ i.x-fa,
         text-decoration: none;
 
         .x-fa { color: var(--rs-text); }
+        .rs-contact-icon-img {
+            width: 18px;
+            height: 18px;
+            object-fit: contain;
+            display: block;
+        }
         &:hover {
             background: var(--rs-surface);
         }
+    }
+
+    html[data-theme="dark"] & .rs-contact-icon-img { filter: invert(1); }
+    @media (prefers-color-scheme: dark) {
+        .rs-contact-icon-img { filter: invert(1); }
     }
 
     .rs-footer {
