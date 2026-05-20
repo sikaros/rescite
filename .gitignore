@@ -52,3 +52,7 @@ node_modules/
 *.log
 screenshots/
 .cache/
+.claude/
+.playwright-mcp/
+/*.png
+docs/resources/images/oscar-headhot-new.png
