@@ -19,7 +19,7 @@ Ext.define('RESCITE.view.contact.Contact', {
                     '<a class="rs-contact-link" href="{linkedin}" target="_blank" rel="noopener"><img class="rs-contact-icon-img" src="resources/images/linkedin-icon.png" alt="LinkedIn"><span>LinkedIn</span></a>',
                 '</tpl>',
                 '<tpl if="github">',
-                    '<a class="rs-contact-link" href="{github}" target="_blank" rel="noopener"><img class="rs-contact-icon-img" src="resources/images/githubiconimg.png" alt="GitHub"><span>GitHub</span></a>',
+                    '<a class="rs-contact-link" href="{github}" target="_blank" rel="noopener"><img class="rs-contact-icon-img" src="resources/images/github-icon.png" alt="GitHub"><span>GitHub</span></a>',
                 '</tpl>'
             ],
             bind: { data: '{contact}' }

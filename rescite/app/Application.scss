@@ -483,10 +483,6 @@ i.x-fa,
 }
 
 // ----- Keyframes -----
-@keyframes rs-float {
-    0%, 100% { transform: translateY(0); }
-    50%      { transform: translateY(-6px); }
-}
 @keyframes rs-halo-pulse {
     0%, 100% { opacity: 1;   transform: scale(1); }
     50%      { opacity: 0.6; transform: scale(1.04); }
@@ -861,10 +857,6 @@ i.x-fa,
         }
     }
 
-    html[data-theme="dark"] & .rs-contact-icon-img { filter: invert(1); }
-    @media (prefers-color-scheme: dark) {
-        .rs-contact-icon-img { filter: invert(1); }
-    }
 
     .rs-footer {
         padding-top: 20px;
@@ -872,6 +864,11 @@ i.x-fa,
         font-size: 12px;
         color: var(--rs-text-mute);
     }
+}
+
+html[data-theme="dark"] .rs-contact .rs-contact-icon-img { filter: invert(1); }
+@media (prefers-color-scheme: dark) {
+    .rs-contact .rs-contact-icon-img { filter: invert(1); }
 }
 
 // ----- Responsive -----
