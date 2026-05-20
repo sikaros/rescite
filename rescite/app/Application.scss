@@ -425,14 +425,13 @@ i.x-fa,
     .rs-hero-photo {
         position: relative;
         z-index: 1;
-        width: 200px;
-        height: 200px;
+        width: 240px;
+        height: 310px;
         border-radius: 50%;
         object-fit: cover;
         display: block;
         border: 1px solid var(--rs-border);
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
-        animation: rs-float 6s ease-in-out infinite;
     }
 
     .rs-hero-eyebrow {
@@ -850,10 +849,21 @@ i.x-fa,
         font-size: 14px;
         text-decoration: none;
 
-        .x-fa { color: var(--rs-text-dim); }
+        .x-fa { color: var(--rs-text); }
+        .rs-contact-icon-img {
+            width: 18px;
+            height: 18px;
+            object-fit: contain;
+            display: block;
+        }
         &:hover {
             background: var(--rs-surface);
         }
+    }
+
+    html[data-theme="dark"] & .rs-contact-icon-img { filter: invert(1); }
+    @media (prefers-color-scheme: dark) {
+        .rs-contact-icon-img { filter: invert(1); }
     }
 
     .rs-footer {

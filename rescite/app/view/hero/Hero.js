@@ -18,7 +18,7 @@ Ext.define('RESCITE.view.hero.Hero', {
                 '</div>',
                 '<tpl if="photo">',
                     '<div class="rs-hero-photo-wrap">',
-                        '<img class="rs-hero-photo" src="{photo}" alt="Headshot of {name}" width="200" height="200">',
+                        '<img class="rs-hero-photo" src="{photo}" alt="Headshot of {name}" width="240" height="310">',
                     '</div>',
                 '</tpl>',
             '</div>'

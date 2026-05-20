@@ -187,7 +187,7 @@ Ext.define('RESCITE.data.Resume', {
     ],
 
     contact: {
-        email:    'oscar.ayala@systemates.com',
+        email:    'oayala14@gmail.com',
         linkedin: 'https://www.linkedin.com/in/oayala14',
         github:   'https://github.com/sikaros'
     }

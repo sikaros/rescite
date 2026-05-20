@@ -14,12 +14,12 @@ Ext.define('RESCITE.view.contact.Contact', {
             xtype: 'component',
             cls: 'rs-contact-links',
             tpl: [
-                '<a class="rs-contact-link" href="mailto:{email}"><i class="x-fa fa-envelope-o" aria-hidden="true"></i><span>{email}</span></a>',
+                '<a class="rs-contact-link" href="mailto:{email}" aria-label="Email"><i class="x-fa fa-envelope" aria-hidden="true"></i><span>Email</span></a>',
                 '<tpl if="linkedin">',
-                    '<a class="rs-contact-link" href="{linkedin}" target="_blank" rel="noopener"><i class="x-fa fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>',
+                    '<a class="rs-contact-link" href="{linkedin}" target="_blank" rel="noopener"><img class="rs-contact-icon-img" src="resources/images/linkedin-icon.png" alt="LinkedIn"><span>LinkedIn</span></a>',
                 '</tpl>',
                 '<tpl if="github">',
-                    '<a class="rs-contact-link" href="{github}" target="_blank" rel="noopener"><i class="x-fa fa-github" aria-hidden="true"></i><span>GitHub</span></a>',
+                    '<a class="rs-contact-link" href="{github}" target="_blank" rel="noopener"><img class="rs-contact-icon-img" src="resources/images/githubiconimg.png" alt="GitHub"><span>GitHub</span></a>',
                 '</tpl>'
             ],
             bind: { data: '{contact}' }
