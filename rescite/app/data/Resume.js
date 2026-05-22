@@ -12,15 +12,15 @@ Ext.define('RESCITE.data.Resume', {
     about: [
         "I'm a Software Quality Assurance Analyst with nearly a decade across healthcare software and capital construction SaaS — and the QA field is in the middle of a major transformation. Titles like \"QA Analyst\" are giving way to Quality Engineer, AI Quality Engineer, Agentic QE. I'm not watching that shift from the sidelines; I'm living it.",
         "At Projectmates by Systemates I'm the lead QA on a React-based capital construction platform spanning 30+ modules. I built our <strong>Agentic QA Framework</strong> from the ground up using Claude Code CLI as the orchestration engine — autonomous module discovery, ADO test case generation, Playwright E2E automation, App Insights triage, UI mockup generation. My teammates use it as part of their daily workflow.",
-        "I'm not a developer, but my technical foundation goes well beyond a typical QA role: C++ and Python coursework, SQL Server proficiency, IIS administration exposure, REST/React/ExtJS at QA-readable depth, hands-on integration of Claude / GPT / Gemini into real workflows. Two completed Anthropic courses on AI fluency and product stack.",
+        "I'm not a developer, but my technical foundation goes well beyond a typical QA role: C++ and Python coursework, SQL Server proficiency, IIS administration exposure, REST/React/ExtJS at QA-readable depth, hands-on integration of Claude / GPT / Gemini into real workflows. Three completed Anthropic courses on AI fluency and product stack.",
         "My philosophy: with AI, the constraint is imagination and design — not execution. The career trajectory is deliberate: toward AI-augmented test architecture at the frontier where software quality and artificial intelligence meet."
     ],
 
     stats: [
         { value: '9+',  label: 'Years in QA and IT support' },
         { value: '30+', label: 'Modules under test at Projectmates' },
-        { value: '7',   label: 'Certifications earned' },
-        { value: '2',   label: 'Anthropic courses completed' }
+        { value: '8',   label: 'Certifications earned' },
+        { value: '3',   label: 'Anthropic courses completed' }
     ],
 
     experience: [
@@ -161,6 +161,7 @@ Ext.define('RESCITE.data.Resume', {
     ],
 
     certifications: [
+        { name: 'Claude Code 101',                                      issuer: 'Anthropic',                             year: '2025', url: 'resources/documents/cert-anthropic-claude-coded-101.jpg' },
         { name: 'Claude 101',                                          issuer: 'Anthropic',                             year: '2025', url: 'resources/documents/anthropic-claude-101.pdf' },
         { name: 'ITIL v4 Foundation',                                  issuer: 'AXELOS Global Best Practice',           year: 'Mar 2022' },
         { name: 'CompTIA Project+',                                    issuer: 'CompTIA',                               year: 'Dec 2021' },
