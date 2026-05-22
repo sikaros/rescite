@@ -161,8 +161,8 @@ Ext.define('RESCITE.data.Resume', {
     ],
 
     certifications: [
-        { name: 'Claude Code 101',                                      issuer: 'Anthropic',                             year: '2025', url: 'resources/documents/cert-anthropic-claude-coded-101.jpg' },
-        { name: 'Claude 101',                                          issuer: 'Anthropic',                             year: '2025', url: 'resources/documents/anthropic-claude-101.pdf' },
+        { name: 'Claude Code 101',                                      issuer: 'Anthropic',                             year: '2026', url: 'resources/documents/cert-anthropic-claude-coded-101.jpg' },
+        { name: 'Claude 101',                                          issuer: 'Anthropic',                             year: '2026', url: 'resources/documents/anthropic-claude-101.pdf' },
         { name: 'ITIL v4 Foundation',                                  issuer: 'AXELOS Global Best Practice',           year: 'Mar 2022' },
         { name: 'CompTIA Project+',                                    issuer: 'CompTIA',                               year: 'Dec 2021' },
         { name: 'CompTIA IT Operations Specialist (CIOS Stackable)',   issuer: 'CompTIA',                               year: 'May 2020' },
